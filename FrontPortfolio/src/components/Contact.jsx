@@ -4,8 +4,8 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
+    from_name: '',
+    from_email: '',
     message: ''
   });
   const [status, setStatus] = useState('idle'); 
@@ -13,13 +13,13 @@ const Contact = () => {
 
   const validateForm = () => {
     const newErrors = {};
-    if (!formData.name.trim()) {
-      newErrors.name = 'Name is required';
+    if (!formData.from_name.trim()) {
+      newErrors.from_name = 'Name is required';
     }
-    if (!formData.email.trim()) {
-      newErrors.email = 'Email is required';
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-      newErrors.email = 'Invalid email format';
+    if (!formData.from_email.trim()) {
+      newErrors.from_email = 'Email is required';
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.from_email)) {
+      newErrors.from_email = 'Invalid email format';
     }
     if (!formData.message.trim()) {
       newErrors.message = 'Message is required';
