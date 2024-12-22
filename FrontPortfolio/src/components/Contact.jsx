@@ -74,7 +74,7 @@ const Contact = () => {
     <div className="min-h-screen bg-gray-900 text-white p-6">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-green-500 font-mono">
-          $ echo "Contact Me"<span className="animate-pulse">_</span>
+          System.out.println("Contact Me");<span className="animate-pulse">_</span>
         </h2>
 
         <div className="relative group">
@@ -87,7 +87,7 @@ const Contact = () => {
               {/* Name field */}
               <div>
                 <label htmlFor="name" className="block text-green-500 font-mono mb-2">
-                  $ user.name
+                   private String user_name
                 </label>
                 <input
                   type="text"
@@ -108,7 +108,7 @@ const Contact = () => {
               {/* Email field */}
               <div>
                 <label htmlFor="email" className="block text-green-500 font-mono mb-2">
-                  $ user.email
+                  public String user_email
                 </label>
                 <input
                   type="email"
@@ -129,7 +129,7 @@ const Contact = () => {
               {/* Message field */}
               <div>
                 <label htmlFor="message" className="block text-green-500 font-mono mb-2">
-                  $ user.message
+                  public String user_message
                 </label>
                 <textarea
                   id="message"
