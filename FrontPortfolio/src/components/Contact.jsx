@@ -74,7 +74,7 @@ const Contact = () => {
     <div className="min-h-screen bg-gray-900 text-white p-6">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-green-500 font-mono">
-          class Contact_me{"{"}<span className="animate-pulse">_</span>
+          class Contact_me{"{"}
         </h2>
 
         <div className="relative group">
@@ -166,10 +166,6 @@ const Contact = () => {
                 )}
               </button>
 
-              <h2 className="text-3xl font-bold mb-8 text-green-500 font-mono">
-          {"}"}<span className="animate-pulse">_</span>
-        </h2>
-
               {/* Status messages */}
               {status === 'success' && (
                 <div className="text-green-500 font-mono text-center">
@@ -183,6 +179,9 @@ const Contact = () => {
               )}
             </form>
           </div>
+          <h2 className="text-3xl font-bold mb-8 text-green-500 font-mono">
+          {"}"}<span className="animate-pulse">_</span>
+        </h2>
         </div>
       </div>
     </div>
