@@ -179,11 +179,13 @@ const Contact = () => {
               )}
             </form>
           </div>
-          <h2 className="text-3xl font-bold mb-8 text-green-500 font-mono">
+         
+        </div>
+        
+      </div>
+       <h2 className="text-3xl font-bold mb-8 text-green-500 font-mono">
           {"}"}<span className="animate-pulse">_</span>
         </h2>
-        </div>
-      </div>
     </div>
               </>
   );
