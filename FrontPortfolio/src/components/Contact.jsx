@@ -35,7 +35,7 @@ const Contact = () => {
     setStatus('loading');
 
     console.log('Sending email...');
-    console.log(e.target.querySelectorAll('input'));
+    console.log();
     
 
     emailjs.sendForm(
