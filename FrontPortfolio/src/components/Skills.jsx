@@ -70,7 +70,7 @@ const Skills = () => {
       <div className='w-full bg-gray-900'>
         <div className="w-9/12 mx-auto p-3 bg-gray-900 ">
           <h2 className="text-3xl font-bold mb-8 text-green-500 font-mono">
-          Console.log(Skills())<span className="animate-pulse">_</span>
+          Skills()<span className="animate-pulse">_</span>
           </h2>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
