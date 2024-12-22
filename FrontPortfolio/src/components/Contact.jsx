@@ -92,7 +92,7 @@ const Contact = () => {
                 <input
                   type="text"
                   id="name"
-                  name="name"
+                  name="from_name"
                   value={formData.name}
                   onChange={handleChange}
                   className={`w-full bg-gray-800 rounded border ${
@@ -113,7 +113,7 @@ const Contact = () => {
                 <input
                   type="email"
                   id="email"
-                  name="email"
+                  name="from_email"
                   value={formData.email}
                   onChange={handleChange}
                   className={`w-full bg-gray-800 rounded border ${
